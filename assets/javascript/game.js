@@ -72,7 +72,7 @@ var guess4 = false;
 var guess5 = false;
 
 //3
-var computerChoices = ["actor", "agent", "alone", "anger", "avoid", "beach", "birth", "brown", "built", "buyer", "chair", "china", "clean", "court", "crown"];
+var computerChoices = ["actor", "agent", "audio", "anger", "avoid", "beach", "birth", "brown", "built", "buyer", "chair", "china", "clock", "court", "child", "dance", "dream", "drink", "dozen", "dying", "earth", "eight", "empty", "enjoy", "equal", "extra", "faith", "false", "fight", "fixed", "force", "fruit", "globe", "grace", "great", "group", "guard", "guest", "heart", "horse", "house", "human", "ideal", "image", "index", "input", "joint", "judge", "label", "large", "later", "laugh", "learn", "light", "magic", "maker", "match", "media", "metal", "minus", "mixed", "money", "month", "movie", "music", "night", "noise", "north", "noted", "novel", "nurse", "ocean", "other", "paint", "party", "phone", "pilot", "plate", "power", "print", "proud", "quick", "quiet", "radio", "ready", "right", "rough", "royal", "scale", "sixty", "speak", "south", "stand", "taken", "thick", "touch", "truly", "twice", "under", "until", "upset", "usage", "urban", "video", "virus", "value", "waste", "water", "white", "women", "world", "write", "wrong", "yield", "young", "youth"];
 
 var updateWordToGuess = function() {
     this.wordToGuess = this.computerChoices[Math.floor(Math.random() * this.computerChoices.length)];
