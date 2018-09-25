@@ -1,6 +1,29 @@
 # Psychic-Word-Game
 
-A simple word guessing game like hang-man. Guess the word and win the game.
+Guess the word.
+
+### How to use?
+
+- You have to guess a word.
+- You have 9 chances to match that word!
+    - All words are in 5 letters.
+    - ?????
+    - Display in **Red** shows you how many chances left.
+- Keep guessing letter until word discover or you miss last chance!
+    - Make sure don't repeat your guess.
+    - Make sure all characters are in between a to z.
+- Once you guess the word or not...
+    - Computer generate new word randomly.
+    - Wins or Losses add +1
+    - Display in **Yellow** have your answer!
+
+### Built with
+
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript
+- Github for versioning
 
 
 ## CONTACT
