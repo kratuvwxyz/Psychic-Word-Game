@@ -2,7 +2,7 @@
 
 Guess the word.
 
-### How to use?
+### How to play?
 
 - You have to guess a word.
 - You have 9 chances to match that word!
