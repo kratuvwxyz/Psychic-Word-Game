@@ -1,6 +1,6 @@
 {
-    "name": "PLOG by Desaign Studio",
-    "short_name": "PLOG",
+    "name": "Wheel of Fortune by Desaign Studio",
+    "short_name": "Wheel of Fortune",
     "icons": [
         {
             "src": "https://desaign.app/clients/cli/images/1x/blue.png",
@@ -29,5 +29,5 @@
     "background_color": "#3E4EB8",
     "theme_color": "#003355",
     "manifest_version": 2,
-    "version": "2103151827"
+    "version": "2103161000"
 }

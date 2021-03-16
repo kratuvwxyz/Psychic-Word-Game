@@ -13,7 +13,7 @@ Guess the word like "Wheel of Fortune".
 - Wins or Losses
 - Display in **Yellow** have your answer!
 
-### Versio 
+### Version
 
 - **2103161000**
 - Last Update: 2021/03/16
