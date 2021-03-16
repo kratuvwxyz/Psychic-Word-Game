@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="author" content="#DESAIGNER" />
+    <meta name="description" content="Psychic Word Guessign Game" />
+    <meta
+      name="keywords"
+      content="Psychic, Letter, Guessing, Game, keyword, type, guess"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/gif"
+      href="https://raw.githubusercontent.com/kratuvwxyz/assets2/master/images/favicon.gif"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,400i"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://raw.githubusercontent.com/kratuvwxyz/assets2/tree/master/css/reset.css"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      body {
+        font-family: "Montserrat", sans-serif;
+        background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/sun-pattern.png");
+        background-color: whitesmoke;
+        letter-spacing: 1px;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "IBM Plex Serif", serif;
+      }
+      footer {
+        background-image: url(https://raw.githubusercontent.com/kratuvwxyz/assets2/master/images/background/pattern/confectionary.png);
+        background-color: khaki;
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Psychic Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="text-center pt-4 pb-3 px-2 bg-light">
+            <h1>Psychic Word Game</h1>
+            <hr />
+            <p>Let's find out, how good are you!?!</p>
+            <h5>
+              You have <strong id="numnberChance" class="text-danger">9 chances</strong>
+              <span style="white-space: nowrap">to match word that computer guessed!</span>
+            </h5>
+          </div>
+          <div class="bg-warning p-4 text-light text-center">
+            <div class="bg-warning p-2">
+              <h3
+                class="text-dark"
+                style="letter-spacing: 2px"
+                id="areYouReady"
+              >
+                Are You Ready? Start Guessing...
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row p-3">
+        <div class="col-lg-4 p-4 text-light bg-dark">
+          <h1>
+            Word To Guess: <br />
+            <span class="compGuessDisplay" id="compGuessDisplay0">?</span
+            ><span class="compGuessDisplay" id="compGuessDisplay1">?</span
+            ><span class="compGuessDisplay" id="compGuessDisplay2">?</span
+            ><span class="compGuessDisplay" id="compGuessDisplay3">?</span
+            ><span class="compGuessDisplay" id="compGuessDisplay4">?</span>
+          </h1>
+        </div>
+        <div class="col-lg-6 p-4 bg-light">
+          <div id="youGuessDisplay">
+            <h1>
+              Your Guess: <br />
+              <span id="userGuessDisplay1">?</span>&#160;
+              <span id="userGuessDisplay2">?</span>&#160;
+              <span id="userGuessDisplay3">?</span>&#160;
+              <span id="userGuessDisplay4">?</span>&#160;
+              <span id="userGuessDisplay5">?</span>&#160;
+              <span id="userGuessDisplay6">?</span>&#160;
+              <span id="userGuessDisplay7">?</span>&#160;
+              <span id="userGuessDisplay8">?</span>&#160;
+              <span id="userGuessDisplay9">?</span>&#160;
+            </h1>
+          </div>
+        </div>
+        <div class="col-lg-2 bg-dark p-4">
+          <div class="text-light">
+            <h3>Wins: <span id="win">0</span></h3>
+          </div>
+          <hr class="bg-light" />
+          <div class="text-light">
+            <h3>Losses: <span id="loss">0</span></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="demo"></div>
+    <!-- Footer -->
+    <nav
+      class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark mt-5"
+      style="font-size: 1.2rem !important"
+    >
+      <a class="navbar-brand" href="https://desaign.app"
+        >POWERED BY <span class="text-warning">DESAIGN.STUDIO</span></a
+      >
+    </nav>
+    <!-- JavaScripts -->
+    <script src="assets/javascript/script.js" type="text/javascript"></script>
+  </body>
+</html>
