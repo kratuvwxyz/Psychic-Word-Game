@@ -13,14 +13,26 @@ Guess the word like "Wheel of Fortune".
 - Wins or Losses
 - Display in **Yellow** have your answer!
 
+### Versio 
 
-### Built with
+- **2103161000**
+- Last Update: 2021/03/16
+
+### Standards
 
 - HTML5
 - CSS3
-- Bootstrap
 - JavaScript
+
+### Components
+
+- Bootstrap
 - JQuery
+- Manifest
+
+### Software
+
+- Visual Studio Code Editor
 - Github for versioning
 
 
@@ -35,27 +47,3 @@ Thank you for your time and consideration. My mantra is simple, *chase perfectio
 <a href="https://www.twitter.com/desaignstudio" target="_blank" style="text-decoration:none;"><img src="https://desaign.app/clients/cli/images/1x/twitter.png" alt="twitter" width="25" /></a> &#160;
 <a href="https://www.linkedin.com/in/desaignstudio/" target="_blank" style="text-decoration:none;"><img src="https://desaign.app/clients/cli/images/1x/linkedin.png" alt="facebook" width="25" /></a> &#160;
 <a href="http://desaigner.info" target="_blank" style="text-decoration:none;"><img src="https://desaign.app/clients/cli/images/1x/blog.png" alt="DESAIGN BLOG" width="25" /></a> &#160;
-
-### Powered By
-
-        ╥╥  DESIGNED AND DEVELOPED BY...
-        ║║ 
-        ║║ ╓╓──╖╖ ╓╓──── ────╖╖ ╓╖ ╓╓──╖╖ ╓╓──╖╖ TM
-        ║║ ║║  ║║ ║║         ║║ ╙╜ ║║  ║║ ║║  ║║
-    ╓╓──╫╫ ╫╫──╜╜ ╙╙──╖╖ ╓╓──╫╫ ╖╖ ║║  ║║ ║║  ║║
-    ║║  ║║ ║║         ║║ ║║  ║║ ║║ ║║  ║║ ║║  ║║
-    ║║  ║║ ║║         ║║ ║║  ║║ ║║ ║║  ║║ ║║  ║║
-    ║║  ║║ ╙╙──── ────╜╜ ╙╙──╜╜ ║║ ╙╙──╫╫ ╜╜  ║║
-    ║║  ║║  HTTPS://DESAIGN.APP ║║     ║║     ╙╙ LLC
-    ╙╙──╜╜  SINCE TWENTYELEVEN  ╙╙─ ───╜╜
-            Copyright © 2021
-            ALL RIGHTS RESERVED
-            --
-            Call: 1-860-DESAIGN
-            Mail: MEET@DESAIGN.STUDIO
-            Post: PO BOX 200001, AUSTIN TX 78720
-            --
-            Book an appointment with us at
-            https://calendly.com/desaignstudio
-            --
-            Follow us: #desaignstudio

@@ -1,23 +1,94 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+
+<!--#
+        ╥╥  DESIGNED AND DEVELOPED BY...
+        ║║ 
+        ║║ ╓╓──╖╖ ╓╓──── ────╖╖ ╓╖ ╓╓──╖╖ ╓╓──╖╖ TM
+        ║║ ║║  ║║ ║║         ║║ ╙╜ ║║  ║║ ║║  ║║
+    ╓╓──╫╫ ╫╫──╜╜ ╙╙──╖╖ ╓╓──╫╫ ╖╖ ║║  ║║ ║║  ║║
+    ║║  ║║ ║║         ║║ ║║  ║║ ║║ ║║  ║║ ║║  ║║
+    ║║  ║║ ║║         ║║ ║║  ║║ ║║ ║║  ║║ ║║  ║║
+    ║║  ║║ ╙╙──── ────╜╜ ╙╙──╜╜ ║║ ╙╙──╫╫ ╜╜  ║║
+    ║║  ║║  HTTPS://DESAIGN.APP ║║     ║║     ╙╙ LLC
+    ╙╙──╜╜  SINCE TWENTYELEVEN  ╙╙─ ───╜╜
+            Copyright © 2021
+            ALL RIGHTS RESERVED
+            --
+            Call: 1-860-DESAIGN
+            Mail: MEET@DESAIGN.STUDIO
+            Post: PO BOX 200001, AUSTIN TX 78720
+            --
+            Book an appointment with us at
+            https://calendly.com/desaignstudio
+            --
+            Follow us: #desaignstudio
+#-->
+
+<!--[if IE 8]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+
+<html class="no-js" dir="ltr" lang="en-US">
+  <!--<![endif]-->
+
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="author" content="#DESAIGNER" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ! just for auto-refresh or redirect use the following meta tag -->
+    <!-- <meta http-equiv="refresh" content="61"> -->
+    <!-- <meta http-equiv="refresh" content="0; url=http://website.com/" /> -->
+    <!-- ! -->
+    <!--basic page needs-->
+    <meta name="author" content="Desaign Studio" />
     <meta name="description" content="Psychic Word Guessign Game" />
     <meta
       name="keywords"
       content="Psychic, Letter, Guessing, Game, keyword, type, guess"
     />
+
+    <title>Wheel of Fortune | Desaign Studio</title>
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="./manifest/manifest.json" />
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="Wheel of Fortune by Desaign Studio" />
     <link
-      rel="shortcut icon"
-      type="image/gif"
-      href="https://raw.githubusercontent.com/kratuvwxyz/assets2/master/images/favicon.gif"
+      rel="icon"
+      sizes="192x192"
+      href="https://desaign.app/clients/cli/images/1x/favicon.ico"
     />
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Wheel of Fortune by Desaign Studio" />
+    <link
+      rel="apple-touch-icon"
+      href="https://desaign.app/clients/cli/images/1x/black.png"
+    />
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta
+      name="msapplication-TileImage"
+      content="https://desaign.app/clients/cli/images/1x/blue.png"
+    />
+    <meta name="msapplication-TileColor" content="#003355" />
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#003355" />
+
+    <!-- Humans Text -->
+    <link type="text/plain" rel="author" href="./manifest/humans.txt" />
+    <!-- Robots -->
+    <!-- <meta name="robots" content="noindex, nofollow" /> -->
+
+    <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,400i"
       rel="stylesheet"
@@ -26,21 +97,18 @@
       href="https://fonts.googleapis.com/css?family=Montserrat"
       rel="stylesheet"
     />
+
+    <!-- JQuery -->
+    <script src="https://desaign.app/clients/cli/js/jquery.js"></script>
+
+    <!-- Bootstrap -->
     <link
       rel="stylesheet"
-      href="https://raw.githubusercontent.com/kratuvwxyz/assets2/tree/master/css/reset.css"
+      href="https://desaign.app/clients/cli/css/bootstrap.css"
     />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <script src="https://desaign.app/clients/cli/js/bootstrap.js"></script>
+
+    <!-- Developer CSS -->
     <style>
       body {
         font-family: "Montserrat", sans-serif;
@@ -56,13 +124,7 @@
       h6 {
         font-family: "IBM Plex Serif", serif;
       }
-      footer {
-        background-image: url(https://raw.githubusercontent.com/kratuvwxyz/assets2/master/images/background/pattern/confectionary.png);
-        background-color: khaki;
-      }
     </style>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <title>Psychic Game</title>
   </head>
   <body>
     <div class="container">
@@ -73,8 +135,11 @@
             <hr />
             <p>Let's find out, how good are you!?!</p>
             <h5>
-              You have <strong id="numnberChance" class="text-danger">9 chances</strong>
-              <span style="white-space: nowrap">to match word that computer guessed!</span>
+              You have
+              <strong id="numnberChance" class="text-danger">9 chances</strong>
+              <span style="white-space: nowrap"
+                >to match word that computer guessed!</span
+              >
             </h5>
           </div>
           <div class="bg-warning p-4 text-light text-center">
