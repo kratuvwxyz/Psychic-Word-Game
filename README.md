@@ -45,5 +45,5 @@ Thank you for your time and consideration. My mantra is simple, *chase perfectio
 <img src="https://desaign.app/clients/cli/images/logo/desaign-logo-black.png" alt="DESAIGN LLC" width="250px"/> &copy; 2011-2021. <a href="https://desaign.app" target="_blank" style="text-decoration:none;">DESAIGN STUDIO</a>. All Rights Reseverd. &#160;
 <a href="https://www.facebook.com/desaignstudio" target="_blank" style="text-decoration:none;"><img src="https://desaign.app/clients/cli/images/1x/facebook.png" alt="facebook" width="25" /></a> &#160;
 <a href="https://www.twitter.com/desaignstudio" target="_blank" style="text-decoration:none;"><img src="https://desaign.app/clients/cli/images/1x/twitter.png" alt="twitter" width="25" /></a> &#160;
-<a href="https://www.linkedin.com/in/desaignstudio/" target="_blank" style="text-decoration:none;"><img src="https://desaign.app/clients/cli/images/1x/linkedin.png" alt="facebook" width="25" /></a> &#160;
-<a href="http://desaigner.info" target="_blank" style="text-decoration:none;"><img src="https://desaign.app/clients/cli/images/1x/blog.png" alt="DESAIGN BLOG" width="25" /></a> &#160;
+<a href="https://www.linkedin.com/company/desaignstudio" target="_blank" style="text-decoration:none;"><img src="https://desaign.app/clients/cli/images/1x/linkedin.png" alt="linked in" width="25" /></a> &#160;
+<a href="https://desaigner.info" target="_blank" style="text-decoration:none;"><img src="https://desaign.app/clients/cli/images/1x/blog.png" alt="DESAIGN BLOG" width="25" /></a> &#160;
