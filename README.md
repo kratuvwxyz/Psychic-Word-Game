@@ -1,8 +1,10 @@
-# Psychic Word Game
+# Word Guessing Game
 
 Guess the word like "Wheel of Fortune".
 
-### How to play?
+### Gameplay
+
+<img src="./SS1.png" alt="Screen Shot" width="500">
 
 - You have to guess a word.
 - You have 9 chances to match that word!
@@ -10,31 +12,33 @@ Guess the word like "Wheel of Fortune".
     - ?????
 - Keep guessing until word discover or you miss last chance!
 - Computer generate new word randomly.
-- Wins or Losses
 - Display in **Yellow** have your answer!
 
 ### Version
 
 - **2103161000**
-- Last Update: 2021/03/16
+✔ Last Update @done (March 24th 2021, 15:33)
 
-### Standards
+### Framework
 
-- HTML5
-- CSS3
-- JavaScript
+- HTML5, CSS3, JavaScript
 
-### Components
+### Built With
 
-- Bootstrap
-- JQuery
-- Manifest
+- JQuery, Bootstrap, Google Fonts, SVG
 
 ### Software
 
 - Visual Studio Code Editor
 - Github for versioning
 
+### CONTRIBUTE
+
+- A [contributing guideline](https://github.com/kratuvwxyz/CONTRIBUTE) available.
+
+### LICENSE
+
+- [MIT](https://github.com/kratuvwxyz/LICENSE) © 2021 Kratu Desai, DESAIGN LLC.
 
 ## CONTACT
 
@@ -43,7 +47,8 @@ Thank you for your time and consideration. My mantra is simple, *chase perfectio
 <hr/>
 
 <img src="https://desaign.app/clients/cli/images/logo/desaign-logo-black.png" alt="DESAIGN LLC" width="250px"/> &copy; 2011-2021. <a href="https://desaign.app" target="_blank" style="text-decoration:none;">DESAIGN STUDIO</a>. All Rights Reseverd. &#160;
-<a href="https://www.facebook.com/desaignstudio" target="_blank" style="text-decoration:none;"><img src="https://desaign.app/clients/cli/images/1x/facebook.png" alt="facebook" width="25" /></a> &#160;
-<a href="https://www.twitter.com/desaignstudio" target="_blank" style="text-decoration:none;"><img src="https://desaign.app/clients/cli/images/1x/twitter.png" alt="twitter" width="25" /></a> &#160;
-<a href="https://www.linkedin.com/company/desaignstudio" target="_blank" style="text-decoration:none;"><img src="https://desaign.app/clients/cli/images/1x/linkedin.png" alt="linked in" width="25" /></a> &#160;
+<a href="https://www.facebook.com/desaignstudio" target="_blank" style="text-decoration:none;"><img src="https://desaign.app/clients/cli/images/1x/facebook.png" alt="Facebook" width="25" /></a> &#160;
+<a href="https://www.twitter.com/desaignstudio" target="_blank" style="text-decoration:none;"><img src="https://desaign.app/clients/cli/images/1x/twitter.png" alt="Twitter" width="25" /></a> &#160;
+<a href="https://www.linkedin.com/company/desaignstudio" target="_blank" style="text-decoration:none;"><img src="https://desaign.app/clients/cli/images/1x/linkedin.png" alt="Linked In" width="25" /></a> &#160;
 <a href="https://desaigner.info" target="_blank" style="text-decoration:none;"><img src="https://desaign.app/clients/cli/images/1x/blog.png" alt="DESAIGN BLOG" width="25" /></a> &#160;
+

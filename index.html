@@ -42,10 +42,7 @@
     <!--basic page needs-->
     <meta name="author" content="Desaign Studio" />
     <meta name="description" content="Psychic Word Guessign Game" />
-    <meta
-      name="keywords"
-      content="Psychic, Letter, Guessing, Game, keyword, type, guess"
-    />
+    <meta name="keywords" content="Psychic, Letter, Guessing, Game, keyword, type, guess" />
 
     <title>Wheel of Fortune | Desaign Studio</title>
 
@@ -57,33 +54,17 @@
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes" />
-    <meta
-      name="application-name"
-      content="Wheel of Fortune by Desaign Studio"
-    />
-    <link
-      rel="icon"
-      sizes="192x192"
-      href="https://desaign.app/clients/cli/images/1x/favicon.ico"
-    />
+    <meta name="application-name" content="Wheel of Fortune by Desaign Studio" />
+    <link rel="icon" sizes="192x192" href="https://desaign.app/clients/cli/images/1x/favicon.ico" />
 
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta
-      name="apple-mobile-web-app-title"
-      content="Wheel of Fortune by Desaign Studio"
-    />
-    <link
-      rel="apple-touch-icon"
-      href="https://desaign.app/clients/cli/images/1x/black.png"
-    />
+    <meta name="apple-mobile-web-app-title" content="Wheel of Fortune by Desaign Studio" />
+    <link rel="apple-touch-icon" href="https://desaign.app/clients/cli/images/1x/black.png" />
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta
-      name="msapplication-TileImage"
-      content="https://desaign.app/clients/cli/images/1x/blue.png"
-    />
+    <meta name="msapplication-TileImage" content="https://desaign.app/clients/cli/images/1x/blue.png" />
     <meta name="msapplication-TileColor" content="#003355" />
 
     <!-- Color the status bar on mobile devices -->
@@ -95,23 +76,14 @@
     <!-- <meta name="robots" content="noindex, nofollow" /> -->
 
     <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,400i"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,400i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
 
     <!-- JQuery -->
     <script src="https://desaign.app/clients/cli/js/jquery.js"></script>
 
     <!-- Bootstrap -->
-    <link
-      rel="stylesheet"
-      href="https://desaign.app/clients/cli/css/bootstrap.css"
-    />
+    <link rel="stylesheet" href="https://desaign.app/clients/cli/css/bootstrap.css" />
     <script src="https://desaign.app/clients/cli/js/bootstrap.js"></script>
 
     <!-- Developer CSS -->
@@ -138,24 +110,17 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="text-center pt-4 pb-3 px-2 bg-light">
-              <h1>Psychic Word Game</h1>
+              <h1>Word Guessing Game</h1>
               <hr />
               <p>Let's find out, how good are you!?!</p>
               <h5>
                 You have
-                <span id="numnberChance" class="text-danger">9 chances</span> to
-                match word that computer guessed!
+                <span id="numnberChance" class="text-danger">9 chances</span> to match word that computer guessed!
               </h5>
             </div>
             <div class="bg-warning p-4 text-light text-center">
               <div class="bg-warning p-2">
-                <h3
-                  class="text-dark"
-                  style="letter-spacing: 2px"
-                  id="areYouReady"
-                >
-                  Are You Ready? <span style="white-space: nowrap">Start Guessing...</span>
-                </h3>
+                <h3 class="text-dark" style="letter-spacing: 2px" id="areYouReady">Are You Ready? <span style="white-space: nowrap">Start Guessing...</span></h3>
               </div>
             </div>
           </div>
@@ -164,26 +129,14 @@
           <div class="col-lg-4 p-4 text-light bg-dark">
             <h1>
               Word To Guess: <br />
-              <span class="compGuessDisplay" id="compGuessDisplay0">?</span
-              ><span class="compGuessDisplay" id="compGuessDisplay1">?</span
-              ><span class="compGuessDisplay" id="compGuessDisplay2">?</span
-              ><span class="compGuessDisplay" id="compGuessDisplay3">?</span
-              ><span class="compGuessDisplay" id="compGuessDisplay4">?</span>
+              <span class="compGuessDisplay" id="compGuessDisplay0">?</span><span class="compGuessDisplay" id="compGuessDisplay1">?</span><span class="compGuessDisplay" id="compGuessDisplay2">?</span><span class="compGuessDisplay" id="compGuessDisplay3">?</span><span class="compGuessDisplay" id="compGuessDisplay4">?</span>
             </h1>
           </div>
           <div class="col-lg-6 p-4 bg-light">
             <div id="youGuessDisplay">
               <h1>
                 Your Guess: <br />
-                <span id="userGuessDisplay1">?</span>&#160;
-                <span id="userGuessDisplay2">?</span>&#160;
-                <span id="userGuessDisplay3">?</span>&#160;
-                <span id="userGuessDisplay4">?</span>&#160;
-                <span id="userGuessDisplay5">?</span>&#160;
-                <span id="userGuessDisplay6">?</span>&#160;
-                <span id="userGuessDisplay7">?</span>&#160;
-                <span id="userGuessDisplay8">?</span>&#160;
-                <span id="userGuessDisplay9">?</span>&#160;
+                <span id="userGuessDisplay1">?</span>&#160; <span id="userGuessDisplay2">?</span>&#160; <span id="userGuessDisplay3">?</span>&#160; <span id="userGuessDisplay4">?</span>&#160; <span id="userGuessDisplay5">?</span>&#160; <span id="userGuessDisplay6">?</span>&#160; <span id="userGuessDisplay7">?</span>&#160; <span id="userGuessDisplay8">?</span>&#160; <span id="userGuessDisplay9">?</span>&#160;
               </h1>
             </div>
           </div>
@@ -200,17 +153,11 @@
       </div>
     </div>
     <!-- Footer -->
-    <nav
-      class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark mt-5 px-3"
-    >
-      <a
-        class="navbar-brand"
-        href="https://desaign.app"
-        style="font-size: 1rem !important"
-        >POWERED BY <span class="text-warning">DESAIGN.STUDIO</span></a
-      >
+    <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark mt-5 px-3">
+      <a class="navbar-brand" href="https://desaign.app" style="font-size: 1rem !important">POWERED BY <span class="text-warning">DESAIGN.STUDIO</span></a>
     </nav>
     <!-- JavaScripts -->
+    <script src="https://desaign.app/clients/cli/javascript/desaign-loader/desaign-loader.js"></script>
     <script src="assets/javascript/script.js" type="text/javascript"></script>
   </body>
 </html>
